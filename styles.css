@@ -1,0 +1,189 @@
+container {
+    width: 90%;
+    margin: auto;
+}
+.header{
+    
+    height:300px;
+    background-image: url(./imatges/tori_japan.jpg);
+    background-size: cover;
+    background-position: 50% 52%;
+}   
+a {
+    color: rgb(128, 121, 121);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    padding: 5px;
+}
+ul {
+    list-style: none;
+    display: flex;
+}
+.navMenu li {
+    padding: 10px;
+}
+.navegacio ul.navMenu{
+    flex:1;
+    margin-left: 100px;
+}
+.navegacio {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegacio ul li a:hover{
+    position: relative;
+    bottom:5px;
+    border-bottom: 1px solid rgb(128, 121, 121);
+
+}
+.itemNav1{
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    padding: 5px;
+}
+.icon {
+    position: relative;
+    top: 2px;
+    opacity: 0.5;
+    width: 15px;
+    height: 15px;   
+}
+.navRight{
+    margin: 20px 120px;
+    flex-direction: column;
+    
+}
+#facebook {
+    margin-bottom: 20px;
+}
+#twitter {
+    margin-top: 20px;
+}
+.underNav{
+    background-color: rgb(90, 89, 87,0.2);
+    height: 150px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.underNav #underNavElement2 {   
+   font-family:Georgia, 'Times New Roman', Times, serif, 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(226, 147, 160, 0.89);
+    font-size: 22px;
+    opacity: .6;
+}
+
+
+.main {
+    background-color:hsla(0, 10%, 73%);
+    margin-top: 5px;
+    display:flex;
+    flex-direction: row;
+}  
+.sectionIn {
+    background-color:rgb(235, 225, 225); 
+    display: flex;
+    display: row;
+    margin: 5px;
+    padding: 5px;  
+}
+.sectionArticle1 {   
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-right: 5px;
+}
+.sectionArticle1 >img{
+    position: relative;
+    z-index: 0;
+    
+    width: 100%;
+    height: auto;
+    flex-grow: 1;     
+}
+.data {
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    z-index: 2;
+    bottom:27px;
+    left: 10px;
+    color:rgb(245, 237, 222);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.franja{
+    position:absolute;
+    bottom:0;
+    z-index: 1;
+    height:30px;
+    width: 100%;
+    background-color:rgb(209, 54, 54);
+
+}
+.titol{
+    margin-left: 10px;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:900;
+    
+}
+
+
+.sectionArticle2 { 
+    position:relative;
+    display: flex;
+    margin-left: 5px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.sectionArticle2 >img{
+    position: relative;
+    z-index: 1;
+    
+    width:100%;
+    height: auto;
+    flex-grow: 1;
+    
+    
+    
+}
+.sectionFooter {
+    font-family:sans-serif;
+    color:rgb(70, 62, 62);
+    text-align: justify;
+    font-size: 14px;
+    margin: 5px 5px;
+    padding: 5px;
+}
+.leerMas {
+    font-size: 16px;
+    font-weight:lighter;
+    margin: 0;
+    padding: 0;
+
+}
+.leerMas:hover{  
+    position: relative;
+    bottom:5px;
+    border-bottom: 1px solid rgb(128, 121, 121);
+}
+.footer {
+    color:rgb(139, 131, 131);
+    text-align: center;
+    font-size: 10;
+    font-family: monospace;
+    background-color: hsla(0, 10%, 73%);
+    border-radius: 0 0 10px 10px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
